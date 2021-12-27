@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Zoood</title>
+  <title>Rojin Chhetri</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -11,7 +11,7 @@
   </div>
 	
   <form method="post" action="register.php">
-  	<?php include('errors.php'); ?>
+  	<?php include('error.php'); ?>
   	<div class="input-group">
   	  <label>Username</label>
   	  <input type="text" name="username" value="<?php echo $username; ?>">
